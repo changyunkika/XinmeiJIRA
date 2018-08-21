@@ -1,0 +1,236 @@
+{
+    "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+    "id": "12969",
+    "self": "http://192.168.100.13:8090/rest/api/2/issue/12969",
+    "key": "KEYB-1873",
+    "fields": {
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "summary": "test bug",
+        "timetracking": {},
+        "issuetype": {
+            "self": "http://192.168.100.13:8090/rest/api/2/issuetype/1",
+            "id": "1",
+            "description": "A problem which impairs or prevents the functions of the product.",
+            "iconUrl": "http://192.168.100.13:8090/images/icons/issuetypes/bug.png",
+            "name": "Bug",
+            "subtask": false
+        },
+        "votes": {
+            "self": "http://192.168.100.13:8090/rest/api/2/issue/KEYB-1873/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "resolution": null,
+        "fixVersions": [
+            {
+                "self": "http://192.168.100.13:8090/rest/api/2/version/10208",
+                "id": "10208",
+                "name": "wk1822",
+                "archived": false,
+                "released": false
+            },
+            {
+                "self": "http://192.168.100.13:8090/rest/api/2/version/10505",
+                "id": "10505",
+                "name": "wk1833",
+                "archived": false,
+                "released": false
+            }
+        ],
+        "resolutiondate": null,
+        "timespent": null,
+        "creator": {
+            "self": "http://192.168.100.13:8090/rest/api/2/user?username=superchangyun%40gmail.com",
+            "name": "superchangyun@gmail.com",
+            "emailAddress": "superchangyun@gmail.com",
+            "avatarUrls": {
+                "16x16": "http://192.168.100.13:8090/secure/useravatar?size=xsmall&avatarId=10123",
+                "24x24": "http://192.168.100.13:8090/secure/useravatar?size=small&avatarId=10123",
+                "32x32": "http://192.168.100.13:8090/secure/useravatar?size=medium&avatarId=10123",
+                "48x48": "http://192.168.100.13:8090/secure/useravatar?avatarId=10123"
+            },
+            "displayName": "孙长运",
+            "active": true
+        },
+        "reporter": {
+            "self": "http://192.168.100.13:8090/rest/api/2/user?username=superchangyun%40gmail.com",
+            "name": "superchangyun@gmail.com",
+            "emailAddress": "superchangyun@gmail.com",
+            "avatarUrls": {
+                "16x16": "http://192.168.100.13:8090/secure/useravatar?size=xsmall&avatarId=10123",
+                "24x24": "http://192.168.100.13:8090/secure/useravatar?size=small&avatarId=10123",
+                "32x32": "http://192.168.100.13:8090/secure/useravatar?size=medium&avatarId=10123",
+                "48x48": "http://192.168.100.13:8090/secure/useravatar?avatarId=10123"
+            },
+            "displayName": "孙长运",
+            "active": true
+        },
+        "aggregatetimeoriginalestimate": null,
+        "created": "2018-08-18T19:51:33.434+0800",
+        "updated": "2018-08-18T20:41:27.590+0800",
+        "description": "test est st t ",
+        "priority": {
+            "self": "http://192.168.100.13:8090/rest/api/2/priority/3",
+            "iconUrl": "http://192.168.100.13:8090/images/icons/priorities/major.png",
+            "name": "Major",
+            "id": "3"
+        },
+        "issuelinks": [],
+        "customfield_10004": "1860",
+        "customfield_10104": [
+            {
+                "self": "http://192.168.100.13:8090/rest/api/2/customFieldOption/10103",
+                "value": "Kika Keyboard",
+                "id": "10103"
+            }
+        ],
+        "watches": {
+            "self": "http://192.168.100.13:8090/rest/api/2/issue/KEYB-1873/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "customfield_10107": null,
+        "customfield_10102": {
+            "self": "http://192.168.100.13:8090/rest/api/2/customFieldOption/10109",
+            "value": "High",
+            "id": "10109"
+        },
+        "customfield_10101": null,
+        "subtasks": [],
+        "customfield_10100": null,
+        "status": {
+            "self": "http://192.168.100.13:8090/rest/api/2/status/1",
+            "description": "The issue is open and ready for the assignee to start work on it.",
+            "iconUrl": "http://192.168.100.13:8090/images/icons/statuses/open.png",
+            "name": "Open",
+            "id": "1",
+            "statusCategory": {
+                "self": "http://192.168.100.13:8090/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "New"
+            }
+        },
+        "customfield_10006": null,
+        "labels": [],
+        "customfield_10005": null,
+        "workratio": -1,
+        "assignee": {
+            "self": "http://192.168.100.13:8090/rest/api/2/user?username=zouchenqi%40gmail.com",
+            "name": "zouchenqi@gmail.com",
+            "emailAddress": "zouchenqi@gmail.com",
+            "avatarUrls": {
+                "16x16": "http://www.gravatar.com/avatar/bec30d4b4ca41f9c1f3880e93e3b15fe?d=mm&s=16",
+                "24x24": "http://www.gravatar.com/avatar/bec30d4b4ca41f9c1f3880e93e3b15fe?d=mm&s=24",
+                "32x32": "http://www.gravatar.com/avatar/bec30d4b4ca41f9c1f3880e93e3b15fe?d=mm&s=32",
+                "48x48": "http://www.gravatar.com/avatar/bec30d4b4ca41f9c1f3880e93e3b15fe?d=mm&s=48"
+            },
+            "displayName": "邹晨起",
+            "active": true
+        },
+        "attachment": [
+            {
+                "self": "http://192.168.100.13:8090/rest/api/2/attachment/11257",
+                "id": "11257",
+                "filename": "741583DCC3C1A01FF43257D93011F0BA.png",
+                "author": {
+                    "self": "http://192.168.100.13:8090/rest/api/2/user?username=superchangyun%40gmail.com",
+                    "name": "superchangyun@gmail.com",
+                    "emailAddress": "superchangyun@gmail.com",
+                    "avatarUrls": {
+                        "16x16": "http://192.168.100.13:8090/secure/useravatar?size=xsmall&avatarId=10123",
+                        "24x24": "http://192.168.100.13:8090/secure/useravatar?size=small&avatarId=10123",
+                        "32x32": "http://192.168.100.13:8090/secure/useravatar?size=medium&avatarId=10123",
+                        "48x48": "http://192.168.100.13:8090/secure/useravatar?avatarId=10123"
+                    },
+                    "displayName": "孙长运",
+                    "active": true
+                },
+                "created": "2018-08-18T19:51:33.440+0800",
+                "size": 874447,
+                "mimeType": "image/png",
+                "content": "http://192.168.100.13:8090/secure/attachment/11257/741583DCC3C1A01FF43257D93011F0BA.png",
+                "thumbnail": "http://192.168.100.13:8090/secure/thumbnail/11257/_thumb_11257.png"
+            },
+            {
+                "self": "http://192.168.100.13:8090/rest/api/2/attachment/11258",
+                "id": "11258",
+                "filename": "F9424AF6F6DEF885B9E380C421134F40.jpg",
+                "author": {
+                    "self": "http://192.168.100.13:8090/rest/api/2/user?username=superchangyun%40gmail.com",
+                    "name": "superchangyun@gmail.com",
+                    "emailAddress": "superchangyun@gmail.com",
+                    "avatarUrls": {
+                        "16x16": "http://192.168.100.13:8090/secure/useravatar?size=xsmall&avatarId=10123",
+                        "24x24": "http://192.168.100.13:8090/secure/useravatar?size=small&avatarId=10123",
+                        "32x32": "http://192.168.100.13:8090/secure/useravatar?size=medium&avatarId=10123",
+                        "48x48": "http://192.168.100.13:8090/secure/useravatar?avatarId=10123"
+                    },
+                    "displayName": "孙长运",
+                    "active": true
+                },
+                "created": "2018-08-18T19:51:33.441+0800",
+                "size": 413604,
+                "mimeType": "image/jpeg",
+                "content": "http://192.168.100.13:8090/secure/attachment/11258/F9424AF6F6DEF885B9E380C421134F40.jpg",
+                "thumbnail": "http://192.168.100.13:8090/secure/thumbnail/11258/_thumb_11258.png"
+            }
+        ],
+        "aggregatetimeestimate": null,
+        "project": {
+            "self": "http://192.168.100.13:8090/rest/api/2/project/10000",
+            "id": "10000",
+            "key": "KEYB",
+            "name": "Keyboard及App",
+            "avatarUrls": {
+                "16x16": "http://192.168.100.13:8090/secure/projectavatar?size=xsmall&pid=10000&avatarId=10011",
+                "24x24": "http://192.168.100.13:8090/secure/projectavatar?size=small&pid=10000&avatarId=10011",
+                "32x32": "http://192.168.100.13:8090/secure/projectavatar?size=medium&pid=10000&avatarId=10011",
+                "48x48": "http://192.168.100.13:8090/secure/projectavatar?pid=10000&avatarId=10011"
+            }
+        },
+        "versions": [
+            {
+                "self": "http://192.168.100.13:8090/rest/api/2/version/10505",
+                "id": "10505",
+                "name": "wk1833",
+                "archived": false,
+                "released": false
+            },
+            {
+                "self": "http://192.168.100.13:8090/rest/api/2/version/10511",
+                "id": "10511",
+                "name": "wk1834",
+                "archived": false,
+                "released": false
+            }
+        ],
+        "environment": null,
+        "timeestimate": null,
+        "lastViewed": "2018-08-19T10:16:30.446+0800",
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "components": [
+            {
+                "self": "http://192.168.100.13:8090/rest/api/2/component/10009",
+                "id": "10009",
+                "name": "内容输入",
+                "description": "内容输入包括gif/sticker/emoji/emoticon表情相关的内容的输入"
+            }
+        ],
+        "comment": {
+            "startAt": 0,
+            "maxResults": 0,
+            "total": 0,
+            "comments": []
+        },
+        "timeoriginalestimate": null,
+        "aggregatetimespent": null
+    }
+}

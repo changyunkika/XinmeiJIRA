@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#fff"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/back"
+                android:src="@mipmap/ic_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_weight="1"
+            android:text="创建缺陷"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/wancheng"
+            android:layout_weight="1"
+            android:text="完成"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f2f2f2"/>
+
+    <xinmei.test.com.xinmeijira.tools.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Project:"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_project"
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Bug ID:"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_bugid"
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Summary:"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_summary"
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Components:"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_components"
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Affects Version:"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_affects"
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Fix Version:"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_fix"
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Assignee:"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_assignee"
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Description:"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/ed_description"
+                android:layout_width="match_parent"
+                android:paddingBottom="5dp"
+                android:layout_height="wrap_content" />
+            //***************
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:text="Attachments:"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:padding="20dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/attachments"
+                    android:layout_width="100dp"
+                    android:src="@mipmap/ic_add"
+                    android:paddingBottom="5dp"
+                    android:layout_height="100dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </xinmei.test.com.xinmeijira.tools.BounceScrollView>
+
+</LinearLayout>
